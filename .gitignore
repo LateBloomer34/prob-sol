@@ -2,4 +2,4 @@
 .git/
 *tempCodeRunnerFile.cpp
 tempCodeRunnerFile.cpp
-.DS_Store
+*.DS_Store
