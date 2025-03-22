@@ -17,7 +17,7 @@ for (int i = 0 ; i < n ; i++){
 }
 
 //using while loop
-/*
+/*        
 void move(int arr[], int n ){
     int j = 0 ;
     int i = 0 ;
@@ -31,7 +31,6 @@ void move(int arr[], int n ){
             i++;
         }
     }
-
 for (int i = 0 ; i < n ; i++){
     cout<<arr[i]<<" ";
 }
