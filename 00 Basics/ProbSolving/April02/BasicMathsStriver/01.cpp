@@ -6,7 +6,7 @@ using namespace std;
 
 int count (int num ){
     int digit = 0 ; 
-    while (num >0){
+    while (num >0){ 
         digit++;
         num = num/10;
     }
