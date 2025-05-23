@@ -7,7 +7,8 @@ void print (int n ){
     if (n>0){
         cout<<n<<endl;
         // n--;
-        print (--n);
+        n = n-1;
+        print (n);
     }
 }
 
