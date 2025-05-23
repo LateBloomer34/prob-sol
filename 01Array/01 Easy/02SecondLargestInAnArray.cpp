@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-#include<bits/stdc++.h>
 
-pair <int , int> sec(vector<int>arr){
+
+pair <int , int> sec (vector<int>arr){
     int largest = INT_MIN;
     int secLar = INT_MIN;
 
