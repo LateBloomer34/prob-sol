@@ -11,7 +11,6 @@ int Lsubarray(vector<int>& arr, int k) {
 
     while (end < n) {  // run till end is less the length of array
         sum = sum +arr[end];
-
     while (sum > k && start <= end) {   // conditon till sum is greater than target 
         sum = sum - arr[start];
         start++;
