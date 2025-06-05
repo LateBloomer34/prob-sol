@@ -4,7 +4,8 @@ using namespace std;
 
 int Lsubarray(vector<int>& arr, int k) {
     int n = arr.size();
-    int start = 0, end = 0;
+    int start = 0;
+    int end = 0;
     int sum = 0;
     int maxCount = 0;
 
@@ -25,7 +26,7 @@ int Lsubarray(vector<int>& arr, int k) {
 }
 
 int main() {
-    vector<int> arr = {2, 3, 5, 1, 9,0,0,0,0,1};
+    vector<int> arr = {2,3,5,1,9,0,0,0,0,0,0,1,0,0,0};
     int k = 10;
     cout << Lsubarray(arr, k) << endl;
 }
