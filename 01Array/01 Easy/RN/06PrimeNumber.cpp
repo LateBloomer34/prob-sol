@@ -1,25 +1,22 @@
 #include<iostream>
 using namespace std;
 
-bool isPrime(int num , int n){
+bool isPrime(int num){
     if (num<=1){
         return false;
     }
-    else{
-    for (int i = 2 ; i < n ;i++){
+    for (int i = 2 ; i*i <= num ;i++){
         if (num%i==0){
             return false;
         }
-        return true;
     }
-}
-return 0;
+    return true;
 }
 
 int prime(int arr[] , int n){
     for (int i = 0 ; i < n ;i++){
         int num = arr[i];
-        if (isPrime(num, n)){
+        if (isPrime(num)){
             cout<<num<<" is prime"<<endl;
         }
         else{
