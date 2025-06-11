@@ -29,7 +29,7 @@ void rRotate(vector<int>arr , int k){
 
 int main (){
     vector<int>arr = {1,2,3,4,5,6,7,8};
-    int k = 0;
+    int k = 3;
     rRotate(arr , k);
 }
 
